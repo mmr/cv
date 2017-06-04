@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+    /**
+    * @author Marcio Ribeiro (mribeiro (a) gmail com)
+    * @created 2004-02-17
+    * @version $Id: cv-en.xml,v 1.1 2006/10/17 01:43:27 mmr Exp $
+    */
+-->
+<?xml-stylesheet type="text/xsl" href="cvXhtmlEn.xsl"?>
+<cv author="Marcio Ribeiro" xmlns="http://cv.b1n.org" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://cv.b1n.org cv.xsd">
+
+    <!-- Personal Data -->
+    <personalData>
+        <firstName>Marcio</firstName>
+        <lastName>Ribeiro</lastName>
+        <civilState>Married</civilState>
+        <email>mribeiro (a) gmail com</email>
+        <address>São Paulo - SP - Brazil</address>
+        <birthday>1983-03-12</birthday>
+        <phones>
+            <phone>(+55-11) 9.6496.3326</phone>
+        </phones>
+    </personalData>
+
+    <!-- Professional Summary -->
+    <professionalSummary>
+        <company>
+            <name>Loggi</name>
+            <dateIn>2015-12-31</dateIn>
+            <dateOut></dateOut>
+            <position>VP of Engineering</position>
+            <activities>
+                <item>Full-time problem solver!</item>
+                <item>Manager of the Backend / Data Science / Ops teams</item>
+                <item>Recruiting, Mentoring, Training, Culture guardian</item>
+                <item>Still pushing a lot of working code to production!</item>
+            </activities>
+        </company>
+        <company>
+            <name>Loggi</name>
+            <dateIn>2014-10-23</dateIn>
+            <dateOut>2015-12-31</dateOut>
+            <position>Tech Lead</position>
+            <activities>
+                <item>Serious code pusher</item>
+                <item>Technical leadership of the Backend / Ops teams</item>
+            </activities>
+        </company>
+        <company>
+            <name>Saloote</name>
+            <dateIn>2014-05-05</dateIn>
+            <dateOut>2014-10-23</dateOut>
+            <position>System Architect</position>
+            <activities>
+                <item>
+                    Designed, architected and helped develop the entire
+                    Saloote app backend, cloud/server infrastructure and
+                    continuos integration process from scratch
+                </item>
+            </activities>
+        </company>
+        <company>
+            <name>MAPS</name>
+            <dateIn>2008-01-01</dateIn>
+            <dateOut>2014-06-06</dateOut>
+            <position>Lead Developer</position>
+            <activities>
+                <item>
+                    Lead developer of Pegasus, an innovative,
+                    highly scalable asset management system
+                </item>
+                <item>
+                    Developed a very powerful and flexible framework that
+                    can monitor and trigger the appropriate actions to be
+                    executed when certain conditions are met -like when a
+                    service on a node in a cluster goes down-
+                </item>
+            </activities>
+        </company>
+        <company>
+            <name>Zera Integradora / Probank</name>
+            <dateIn>2005-03-14</dateIn>
+            <dateOut>2006-08-25</dateOut>
+            <position>Lead Developer / System Architect</position>
+            <activities>
+                <item>
+                    Worked on several WMS, MES and Supply Chain related
+                    projects for Duas Rodas Industrial, aiming at maximizing
+                    quality assurance and tracking over incoming/outgoing
+                    resources, minimizing operational costs and human
+                    failure possibility
+                </item>
+                <item>
+                    Reorganized all internal frameworks, making extensive use
+                    of Maven2 to manage dependencies and have an automated
+                    build/test case running periodically on a spare machine
+                </item>
+                <item>
+                    Responsible for the assembly and maintenance of the
+                    development environment, including version control,
+                    documentation (wiki), issue tracking, proxy (http and
+                    maven), database, application and automated build/test servers
+                </item>
+            </activities>
+        </company>
+        <company>
+            <name>Folha de S.Paulo</name>
+            <dateIn>2003-12-01</dateIn>
+            <dateOut>2005-03-11</dateOut>
+            <position>System Administrator</position>
+            <activities>
+                <item>
+                    Administration of critical services related to the
+                    newspaper's data storage and backup
+                </item>
+                <item>
+                    Developed several programs for automated checking,
+                    reporting and prevention of possible failures in the
+                    newspaper's workflow processes
+                </item>
+            </activities>
+        </company>
+        <company>
+            <name>Caboverde</name>
+            <dateIn>2003-03-01</dateIn>
+            <dateOut>2004-06-01</dateOut>
+            <position>Lead Developer / System Administrator</position>
+            <activities>
+                <item>
+                    Developed SCVP (Sistema CaboVerde de Publicação -
+                    CaboVerde's Publication System), a CMS product focused on
+                    bringing aging scientific research magazines and books
+                    to the Internet era
+                </item>
+                <item>
+                    Responsible for the physical and logical reorganization of
+                    the local area network. Centralizing user authentication of
+                    a variety of services (domain, email, proxy, etc) in a
+                    failsafe/replicated LDAP server
+                </item>
+            </activities>
+        </company>
+        <company>
+            <name>BinarySoft</name>
+            <dateIn>2002-09-01</dateIn>
+            <dateOut></dateOut>
+            <position>Owner</position>
+            <activities>
+                <item>
+                    Lead developer of FlyWatch, a web based executive flight
+                    control system for Sagatiba, controlling from flight
+                    itinerary to visa expiracy
+                </item>
+                <item>
+                    Lead developer of the backend of several ad campaigns,
+                    among them: Coke Zero Nut House and Nokia Trends 2006
+                </item>
+                <item>
+                    Assembly, configuration and maintenance of several Unix
+                    servers for GVI, Ananke, Gringo and On Interactive
+                </item>
+            </activities>
+        </company>
+        <company>
+            <name>Aberium</name>
+            <dateIn>2001-07-01</dateIn>
+            <dateOut>2002-09-01</dateOut>
+            <position>Developer</position>
+            <activities>
+                <item>
+                    Developed several web based projects, among them:
+                    CMS, CRM, ERP, Billing and Timesheet solutions for Avaya,
+                    Airgate, iBest, SantaCruz, FGV, SindicoNet and others
+                </item>
+                <item>
+                    Developed an online auction system (with online audio
+                    streaming) for SuperBid
+                </item>
+            </activities>
+        </company>
+        <company>
+            <name>Holding Marcos de Moraes</name>
+            <dateIn>2000-05-01</dateIn>
+            <dateOut>2001-07-01</dateOut>
+            <position>Lead Developer / System Administrator</position>
+            <activities>
+                <item>
+                    Lead developer of E-Nós2, a relationship portal with
+                    forums, polls and e-commerce modules
+                </item>
+                <item>
+                    Lead developer of TPM's Website and CMS projects.
+                    TPM (Trip For Women) is the women's
+                    version of Trip, a popular brazilian magazine.
+                    TPM is a play on the portuguese words for PMS
+                </item>
+                <item>
+                    Responsible for B4's IDC (Matter Horn's IT division)
+                </item>
+            </activities>
+        </company>
+    </professionalSummary>
+
+    <!-- School Summary -->
+    <schoolSummary>
+        <school>
+            <name>Escola Técnica Estadual Getúlio Vargas</name>
+            <dateIn>1998-01-01</dateIn>
+            <dateOut>2001-02-01</dateOut>
+            <course>Electronics</course>
+        </school>
+        <school>
+            <name>Escola Técnica Estadual de São Paulo</name>
+            <dateIn>2001-01-01</dateIn>
+            <dateOut>2001-06-01</dateOut>
+            <course>IT</course>
+        </school>
+    </schoolSummary>
+
+    <!-- Languages -->
+    <languages>
+        <language>
+            <name>Portuguese</name>
+            <level>Mother Tongue</level>
+        </language>
+        <language>
+            <name>English</name>
+            <level>Advanced</level>
+        </language>
+    </languages>
+
+    <!-- Qualifications -->
+    <qualifications>
+        <qualification name="Summary">
+            <item>
+                Experience in the development of mission critical, fault
+                tolerant, highly scalable and distributed applications
+            </item>
+            <item>
+                Used to teamwork, with leadership and troubleshooting skills
+            </item>
+            <item>
+                Senior Java Programmer, focused on JEE
+            </item>
+            <item>
+                Senior System/Network Administrator, focused on FreeBSD,
+                Linux and Solaris operating systems
+            </item>
+        </qualification>
+        <qualification name="Java">
+            <item>JSP, JSTL, JSF, Velocity, Struts, Wicket</item>
+            <item>Maven, jUnit, jMock</item>
+            <item>Hibernate, EJB, JPA</item>
+            <item>Eclipse, IntelliJ IDEA</item>
+            <item>JBoss, Oracle iAS, WebSphere, Tomcat</item>
+            <item>JMS, MQ Series, WebSphere MQ</item>
+        </qualification>
+        <qualification name="Software Engineering">
+            <item>OO, Design Patterns, UML</item>
+            <item>eXtreme Programming, Scrum, Kanban</item>
+        </qualification>
+        <qualification name="Database">
+            <item>PL/SQL, PL/pgSQL, HQL (Hibernate)</item>
+            <item>
+                PostgreSQL, MySQL, SQLite, HypersonicSQL/H2
+            </item>
+            <item>Microsoft SQL Server, Sybase, Informix, Oracle</item>
+        </qualification>
+        <qualification name="Operating Systems">
+            <item>FreeBSD, OpenBSD, Linux, MacOS X</item>
+        </qualification>
+        <qualification name="Others">
+            <item>Go, C, C++, Sed / Awk</item>
+            <item>Perl, PHP, Ruby, Groovy</item>
+            <item>Docker, Ansible, Fab, Puppet, Salt</item>
+            <item>Python, Django, Celery, RabbitMQ</item>
+            <item>JavaScript (ES6), React, Flow, Babel</item>
+            <item>Erlang, Elixir, Lua</item>
+            <item>XML, XSLT, XSD, XPath</item>
+            <item>CVS, SVN, Git, Hg</item>
+            <item>Vim addicted</item>
+        </qualification>
+    </qualifications>
+
+    <!-- Certifications -->
+    <certifications>
+        <certification>Oracle SQL Expert</certification>
+        <certification>Sun Certified Solaris Administrator (SCSA)</certification>
+        <certification>Linux Professional Institute (LPI)</certification>
+    </certifications>
+</cv>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+/**
+ * @author Marcio Ribeiro (mribeiro (a) gmail com)
+ * @created 2004-02-17
+ * @version $Id: cv-pri.xml,v 1.2 2006/10/15 21:38:08 mmr Exp $
+ */
+-->
+<?xml-stylesheet type="text/xsl" href="cvXhtml.xsl"?>
+<cv author="Priscila Ribeiro"
+    xmlns="http://cv.b1n.org"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://cv.b1n.org cv.xsd">
+
+    <!-- Personal Data -->
+    <personalData>
+        <firstName>Priscila</firstName>
+        <lastName>Ribeiro</lastName>
+        <civilState>Casada</civilState>
+        <email>kitty.priscila@gmail.com</email>
+        <address>São Paulo - SP</address>
+        <birthday>1984-01-04</birthday>
+        <phones>
+            <phone>(11) 96496.4241</phone>
+        </phones>
+    </personalData>
+
+    <!-- Professional Summary -->
+    <!--
+    <professionalSummary>
+    </professionalSummary>
+    -->
+    
+    <!-- School Summary -->
+    <!--
+    <schoolSummary>
+        <school>
+            <name>Escola Leonor Mendes de Barros</name>
+            <dateIn>2006-01-01</dateIn>
+            <dateOut>2007-12-31</dateOut>
+            <course>Ensino Médio</course>
+        </school>
+    </schoolSummary>
+    -->
+
+    <!-- Languages -->
+    <languages>
+        <language>
+            <name>Japonês</name>
+            <level>Básico</level>
+        </language>
+    </languages>
+
+	<professionalSummary>
+		<company>
+			<name>Marine Office</name>
+			<dateIn>2012-01-01</dateIn>
+			<dateOut>2012-05-31</dateOut>
+			<position>Auxiliar Administrativo</position>
+			<activities>
+                <item>
+                    Faturamento de notas fiscais eletrônica em sistema ERP
+                    TOTVS Protheus
+                </item>
+                <item>
+                    Atendimento ao cliente, no local e via telefone
+                </item>
+				<item>
+                    Arquivamento de documentos físicos em mídia digital (OCR)
+                </item>
+			</activities>
+		</company>
+		<company>
+			<name>BinarySoft Informatica</name>
+			<dateIn>2008-02-01</dateIn>
+			<dateOut>2011-12-31</dateOut>
+			<position>Auxiliar Administrativo</position>
+			<activities>
+                <item>
+                    Faturamento de notas fiscais físicas e eletrônicas
+                </item>
+                <item>
+                    Pagamento de tributos e despesas
+                </item>
+				<item>
+                    Auxiliar financeiro geral
+                </item>
+			</activities>
+		</company>
+		<company>
+			<name>BankWare</name>
+			<dateIn>2007-06-27</dateIn>
+			<dateOut>2008-01-31</dateOut>
+			<position>Analista de Testes</position>
+			<activities>
+                <item>
+                    Criação e execução de cenários de testes para produto de
+                    controle de custódia/controladoria de fundos de
+                    investimento, com módulos de renda fixa, renda variável,
+                    swap, futuros e cotas de fundos.
+                </item>
+                <item>
+                    Criação e execução de cenários de testes para produto
+                    de mensageria (SPB) e controle de transações bancárias
+                    de grande porte
+                </item>
+				<item>
+                    Escrita de manual de usuário para sistema de mensageria
+                    (SPB), tendo como principal cliente o Citibank
+                </item>
+			</activities>
+		</company>
+	</professionalSummary>
+
+    <!-- Qualifications -->
+    <qualifications>
+        <qualification name="Resumo">
+            <item>Dinâmica, aprende rápido, gosta de aprender</item>
+            <item>Comunicativa, flexível, curiosa</item>
+        </qualification>
+        <qualification name="ERP">
+            <item>TOTVS/Microsiga Protheus</item>
+        </qualification>
+        <qualification name="Sistemas Operacionais">
+            <item>Microsoft Windows 95-XP</item>
+            <item>Ubuntu Linux</item>
+            <item>MacOS X</item>
+        </qualification>
+        <qualification name="Pacotes Office">
+            <item>Microsoft Office 97-XP (Word, Excel, PowerPoint)</item>
+            <item>OpenOffice 1, 2</item>
+        </qualification>
+    </qualifications>
+
+    <!-- Certifications -->
+    <!--
+    <certifications>
+    </certifications>
+    -->
+
+    <!-- Misc -->
+    <!--
+    <misc>
+        <item>Cursando capacitação profissional em rotinas administrativas</item>
+        <item>Cursando Kumon de Japonês</item>
+    </misc>
+    -->
+</cv>
